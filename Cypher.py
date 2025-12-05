@@ -192,7 +192,12 @@ def enable_defender():
     else:
         print("Cancelled.")
     input("Enter to continue...")
-
+# -----------
+# Ro-Grabber
+# ------------
+def ro_grabber():
+    print("this is in testing mode and is not finished...")
+    input("Enter to continue...")
 # -----------------------------
 # menu layout 
 # -----------------------------
@@ -204,17 +209,18 @@ def menu():
         header()
         print(GREEN + "[1] IP Looker   [2] Wifi Sniffer   [3] Disable Defender" + RESET)
         print(GREEN + "[4] Enable Defender   [5] Coordinate converter" + RESET)
-        print(GREEN + "[6] Exit  " + RESET)
+        print(GREEN + "[6] Roblox-Ip-Grabber-Maker  [7] Exit" + RESET)
 
         choice = input("Select> ").strip().lower()
 
-        if choice in ("6","exit"):
+        if choice in ("7","exit"):
             break
         elif choice == "1": ip_looker()
         elif choice == "2": wifi_sniffer()
         elif choice == "3": disable_defender()
         elif choice == "4": enable_defender()
         elif choice == "5": coord_converter()
+        elif choice == "6": ro_grabber()
         else:
             print("Invalid input, try again"); time.sleep(1)
 
