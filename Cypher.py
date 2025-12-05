@@ -196,7 +196,7 @@ def enable_defender():
 # Ro-Grabber
 # ------------
 def ro_grabber():
-    print("this is in testing mode and is not finished...")
+    print("Check out Ro-Ip-Grabber.txt for more becuase its super sophistcated...")
     input("Enter to continue...")
 # -----------------------------
 # menu layout 
