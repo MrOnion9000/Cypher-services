@@ -34,7 +34,7 @@
 # MORE FEATURES COMING SOON!
 # join discord.gg/wzGM9qtjVj if you have any ideas or want help troubleshooting!
 
-import os, sys, time, random, subprocess, threading, ctypes, requests
+import os, sys, time, random, subprocess, threading, ctypes, requests, base64, zlib
 
 
 # UAC(User Account Control)
@@ -46,23 +46,27 @@ def ensure_admin():
     sys.exit()
 
 ensure_admin()
-
-
-
+# -----
+# title
+# -----
 os.system("title Cypher Services")
 GREEN = "\033[32m"
 RESET = "\033[0m"
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
-
+# 
+# code fall bit
+# 
 def falling_code(duration=2.5, width=80, density=0.02):
     end = time.time() + duration
     while time.time() < end:
         line = ''.join(random.choice("01{}[]()<>;:.,-+*/\\|^%$#@!~") if random.random() < density else " " for _ in range(width))
         print(GREEN + line + RESET)
         time.sleep(0.03)
-
+# -----------
+# menu screen
+# ------------
 def header():
     clear()
     print(GREEN + """
@@ -192,12 +196,34 @@ def enable_defender():
     else:
         print("Cancelled.")
     input("Enter to continue...")
-# -----------
-# Ro-Grabber
-# ------------
+# -------
+# ro grabber
+# --------
 def ro_grabber():
     print("Check out Ro-Ip-Grabber.txt for more becuase its super sophistcated...")
     input("Enter to continue...")
+# ---------------
+# code obfuscator
+# ----------------
+def py_obfuscator():
+    print("Paste your Python code.")
+    print("Type END(all caps) on a new line when finished.\n")
+
+    lines = []
+    while True:
+        line = input()
+        if line == "END":
+            break
+        lines.append(line)
+    
+    source = "\n".join(lines)
+    encoded = base64.b64encode(zlib.compress(source.encode("utf-8"))).decode("ascii")
+
+    print("\n--- OBFUSCATED CODE ---\n")
+    print(f"import base64,zlib;exec(zlib.decompress(base64.b64decode({encoded!r})).decode('utf-8'))")
+    input("Press enter to continue")
+
+
 # -----------------------------
 # menu layout 
 # -----------------------------
@@ -208,19 +234,20 @@ def menu():
         falling_code(duration=1.5)
         header()
         print(GREEN + "[1] IP Looker   [2] Wifi Sniffer   [3] Disable Defender" + RESET)
-        print(GREEN + "[4] Enable Defender   [5] Coordinate converter" + RESET)
-        print(GREEN + "[6] Roblox-Ip-Grabber-Maker  [7] Exit" + RESET)
+        print(GREEN + "[4] Enable Defender   [5] Coordinate converter"  + RESET)
+        print(GREEN + "[6] Python code obfuscator   [7] Ro-Grabber-IP    [8] Exit  " + RESET)
 
         choice = input("Select> ").strip().lower()
 
-        if choice in ("7","exit"):
+        if choice in ("8","exit"):
             break
         elif choice == "1": ip_looker()
         elif choice == "2": wifi_sniffer()
         elif choice == "3": disable_defender()
         elif choice == "4": enable_defender()
         elif choice == "5": coord_converter()
-        elif choice == "6": ro_grabber()
+        elif choice == "6": py_obfuscator()
+        elif choice == "7": ro_grabber ()
         else:
             print("Invalid input, try again"); time.sleep(1)
 
