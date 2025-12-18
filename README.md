@@ -1,5 +1,18 @@
  # Cypher-services
-this is a project ive been working on, its a multi tool menu 
+# BY USING THIS TOOL YOU AGREE THAT THE OWNER OF THIS REPOSITORY IS NOT RESPONSIBLE FOR ANY MIS-CONDUCT
+
+# BY USING THIS TOOL YOU AGREE THAT THE OWNER OF THIS REPOSITORY IS NOT RESPONSIBLE FOR ANY MIS-CONDUCT
+
+# BY USING THIS TOOL YOU AGREE THAT THE OWNER OF THIS REPOSITORY IS NOT RESPONSIBLE FOR ANY MIS-CONDUCT
+
+# BY USING THIS TOOL YOU AGREE THAT THE OWNER OF THIS REPOSITORY IS NOT RESPONSIBLE FOR ANY MIS-CONDUCT
+
+# BY USING THIS TOOL YOU AGREE THAT THE OWNER OF THIS REPOSITORY IS NOT RESPONSIBLE FOR ANY MIS-CONDUCT
+
+# BY USING THIS TOOL YOU AGREE THAT THE OWNER OF THIS REPOSITORY IS NOT RESPONSIBLE FOR ANY MIS-CONDUCT
+
+# BY USING THIS TOOL YOU AGREE THAT THE OWNER OF THIS REPOSITORY IS NOT RESPONSIBLE FOR ANY MIS-CONDUCT
+this is a project ive been working on, its a multi tool menu made for **educational** purpose
 
 Join https://discord.gg/wzGM9qtjVj for help or troubleshooting
 
@@ -16,3 +29,7 @@ Tutorial:
 
 
 also check out Ro-ip-Grabber.txt for a roblox ip grabber
+
+TAGS(ignore):
+hacking, menu, doxing tools, d0xin, tools, open-source, no malware, malware-0, how to win any argument online, github tools,
+educational purposes, use at own rise, the owner of this repo is not resonsible for any misconduct.
